@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body> 
+        <form action="/orders" accept-charset="UTF-8" method="post">
+        <input type="hidden" name="authenticity_token" value="...">
+
+        <div>
+            <label for="article_title">CardNumber</label><br>
+            <input type="text" name="article[title]" id="article_title">
+        </div>
+        <div>
+            <label for="article_title">ExpMonth</label><br>
+            <input type="text" name="article[title]" id="article_title">
+        </div>
+        <div>
+            <label for="article_title">ExpYear</label><br>
+            <input type="text" name="article[title]" id="article_title">
+        </div>
+        <div>
+            <label for="article_title">CVC</label><br>
+            <input type="text" name="article[title]" id="article_title">
+        </div>
+        <div>
+            <label for="article_title">Amount</label><br>
+            <input type="text" name="article[title]" id="article_title">
+        </div>
+
+       
+        <div>
+            <input type="submit" name="commit" value="Create Order" data-disable-with="Create Article">
+        </div>
+        </form>
+  </body>
+</html>
+
+
+
